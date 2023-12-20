@@ -4,28 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Nunito:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
 </head>
 <body>
     <ul>
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="">Контакты</a></li>
+        <li><a class = "menu_cl" href="../index.html">Главная</a></li>
+        <li><a class = "menu_cl" href="#">Каталог</a></li>
+        <li><a class = "menu_cl" href="">Контакты</a></li>
     </ul>
-    <h1>Каталог</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut adipisci non ea accusantium tempora vel aut placeat consequuntur. Ducimus repellendus dicta tempora nostrum cumque explicabo iure deleniti voluptates in a similique possimus illum rerum, blanditiis cupiditate expedita sit veniam, totam consectetur. Adipisci laboriosam quos perferendis sint odit, voluptatibus quis deleniti modi eius, quas quibusdam quam veniam necessitatibus cumque sapiente sunt dolore nam facilis quae doloremque eum amet. Cupiditate maiores perspiciatis repudiandae eveniet dolore adipisci libero, repellendus qui quasi est voluptates corrupti iusto voluptatum voluptatibus tempore vero quia ab. Aliquam dolor neque saepe, enim assumenda omnis aperiam nisi facilis rem rerum quia officiis, dolore fuga dolorum voluptatibus laudantium consectetur. Iure laborum distinctio omnis quos? Mollitia quas excepturi, quidem perferendis rem ab esse quaerat temporibus itaque, dolor odio blanditiis nesciunt officia voluptatibus animi omnis quisquam pariatur praesentium numquam tempora hic magnam autem dolore enim. Ducimus placeat delectus, dolorum minus soluta dignissimos?</p>
-     <figure><img  src="../img/ecofriendly-beauty-product.jpg" alt="cosmetics"title="cosmetics" width="300" height="300">
-        <figcaption>Крем для лица
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta accusantium et ea voluptas natus dolores consectetur repudiandae ipsa, ipsam exercitationem neque cumque dolorem minima qui, earum illum! Aliquid, ad quae.</figcaption></figure>
-        <figure><img src="../img/nail-polish-floral-background.jpg" alt="cosmetics"  title="Лак для ногтей" width="300" height="300">
-        <figcaption>Лак для ногтей
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, praesentium! Consectetur officiis unde aliquam quas aperiam laborum qui quibusdam dicta nostrum ab molestiae, sunt, impedit cumque alias soluta ad corrupti. </figcaption></figure>
+    <h1 class="title_h1">Каталог</h1>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut adipisci non ea accusantium tempora vel aut placeat consequuntur. Ducimus repellendus dicta tempora nostrum cumque explicabo iure deleniti voluptates in a similique possimus illum rerum, blanditiis cupiditate expedita sit veniam, totam consectetur. Adipisci laboriosam quos perferendis sint odit, voluptatibus quis deleniti modi eius, quas quibusdam quam veniam necessitatibus cumque sapiente sunt dolore nam facilis quae doloremque eum amet. Cupiditate maiores perspiciatis repudiandae eveniet dolore adipisci libero, repellendus qui quasi est voluptates corrupti iusto voluptatum voluptatibus tempore vero quia ab. Aliquam dolor neque saepe, enim assumenda omnis aperiam nisi facilis rem rerum quia officiis, dolore fuga dolorum voluptatibus laudantium consectetur. Iure laborum distinctio omnis quos? Mollitia quas excepturi, quidem perferendis rem ab esse quaerat temporibus itaque, dolor odio blanditiis nesciunt officia voluptatibus animi omnis quisquam pariatur praesentium numquam tempora hic magnam autem dolore enim. Ducimus placeat delectus, dolorum minus soluta dignissimos?</p>
 
-        <figure><img src="../img/bottle-cosmetic-lotion.jpg" alt="cosmetics" title="Лосьон для тела" width="300" height="300">
-        <figcaption>Лосьон для тела.
-            <br>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga corrupti reiciendis ullam, commodi ratione consectetur eius dignissimos numquam veritatis recusandae nulla asperiores ex laboriosam sequi debitis suscipit, vitae impedit reprehenderit!
-        </figcaption></figure> 
+    <div class="card" style="width: 18rem;">
+        <img src="../img/ecofriendly-beauty-product.jpg" class="card-img-top" alt="cosmetics">
+        <div class="card-body">
+          <h5 class="card-title">Крем для лица</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Добавить в корзину</a>
+        </div>
+      </div>
+      <br>
+      <div class="card" style="width: 18rem;">
+        <img src="../img/nail-polish-floral-background.jpg"  class="card-img-top" alt="cosmetics">
+        <div class="card-body">
+          <h5 class="card-title">Лак для ногтей</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Добавить в корзину</a>
+        </div>
+      </div>
+      <br>
+
+      <div class="card" style="width: 18rem;">
+        <img src="../img/bottle-cosmetic-lotion.jpg"  class="card-img-top" alt="cosmetics">
+        <div class="card-body">
+          <h5 class="card-title">Лосьон для тела</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Добавить в корзину</a>
+        </div>
+      </div>
+  
 </body>
 </html>
